@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "New releases are held for 7 days before Renovate opens a pull request, so a compromised publish has time to be caught and unpublished. To bypass the hold in an emergency, a human can merge the update manually or temporarily lower minimumReleaseAge in this file on a pull request; security fixes from vulnerabilityAlerts are never delayed.",
+  "extends": ["config:recommended"],
+  "minimumReleaseAge": "7 days",
+  "internalChecksFilter": "strict",
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "minimumReleaseAge": null
+  }
+}
