@@ -1,4 +1,4 @@
-const _ = require('lodash');
+const _ = require('@factorydependencydefense/lodash-lite');
 
 function parseLine(line) {
   const [service, level, ...rest] = line.split(' ');
