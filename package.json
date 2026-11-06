@@ -15,8 +15,8 @@
     "test:security": "node --test \"test/security/**/*.test.js\""
   },
   "dependencies": {
+    "@factorydependencydefense/lodash-lite": "^1.0.1",
     "left-pad": "1.3.0",
-    "lodash": "4.17.10",
     "request": "2.88.2"
   },
   "devDependencies": {
